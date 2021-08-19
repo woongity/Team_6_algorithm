@@ -10,7 +10,7 @@ import java.util.Scanner;
 // X가 한수인지 판별하는 함수 정의
 // 어떤 양의 정수 X의 각 자리가 등차수열을 이룬다면, 그 수를 한수라고 한다. 
 // N이 주어졌을 때, 1보다 크거나 같고, N보다 작거나 같은 한수의 개수를 출력
-public class Algorith03 {
+public class Algorithm03 {
 	static int solution(int x) {
 		int cnt = 0;
 		
