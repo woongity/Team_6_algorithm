@@ -1,5 +1,3 @@
-package algorithm;
-
 import java.util.Scanner;
 
 public class boj1065 {
