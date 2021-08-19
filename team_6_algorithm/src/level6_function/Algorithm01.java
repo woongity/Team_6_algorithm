@@ -1,7 +1,5 @@
 package level6_function;
 
-import java.util.Scanner;
-
 // 백준 > 문제 > 단계별로 풀어보기 > 단게 6 : 함수
 
 // 문제] 정수 N개의 합
