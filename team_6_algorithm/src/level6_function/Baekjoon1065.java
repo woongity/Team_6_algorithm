@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 // 백준: 문제 > 단계별로 풀어보기 > 단계 6 : 함수
 // * 다시 풀어보기
-//  1 ~ 99 는 모두 등차 수열이다.
+// 1 ~ 99 는 모두 등차 수열이다.
 
 // 문제] 한수
 // X가 한수인지 판별하는 함수 정의
 // 어떤 양의 정수 X의 각 자리가 등차수열을 이룬다면, 그 수를 한수라고 한다. 
 // N이 주어졌을 때, 1보다 크거나 같고, N보다 작거나 같은 한수의 개수를 출력
-public class Algorithm03 {
+public class Baekjoon1065 {
 	static int solution(int x) {
 		int cnt = 0;
 		
