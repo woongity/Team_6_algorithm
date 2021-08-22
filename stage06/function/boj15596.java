@@ -1,3 +1,5 @@
+package stage06.function;
+
 import java.util.Scanner;
 
 public class boj15596 {

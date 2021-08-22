@@ -1,3 +1,5 @@
+package stage06.function;
+
 public class boj4673 {
     static boolean[] nums = new boolean[10001];
     static void selfNum() {
