@@ -14,7 +14,7 @@
 
 #### 8/18 ~ 8/20 [백준 단계 6 : 함수](https://www.acmicpc.net/step/5)
 #### 8/21 ~ 8/24 [백준 단계 7 : 문자열](https://www.acmicpc.net/step/7)
-
+#### 8/25 ~ 8/30 백준 단계 9 - [2447번](https://www.acmicpc.net/problem/2447) , [11729번](https://www.acmicpc.net/problem/11729), 백준 단계 8 - [2581번](https://www.acmicpc.net/problem/2581) ,[10870번](https://www.acmicpc.net/problem/10870), [1002번](https://www.acmicpc.net/problem/1002)
 </br>
 </br>
 
@@ -22,5 +22,6 @@
 
 ```
 8/20 발표자 : 전체
-8/21 발표자 : 
-```
+8/21 발표자 : 전채
+8/30 발표자 : 양태웅 : 재귀
+
