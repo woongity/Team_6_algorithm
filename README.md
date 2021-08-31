@@ -1,24 +1,27 @@
-## 현대 IT&E SW 교육 algorithm Study
+## 💪현대 IT&E SW 교육 algorithm Study
 
 
-### ✍규칙
+### ☑️규칙
 
 #### 자신에게 할당된 브랜치에 자유롭게 작성합니다.
 #### 매일 1문제, 어떤 문제를 풀것인지 합의하에 결정하게 됩니다.
 #### 다루는 문제의 알고리즘에 대한 개념을 매회 1명이 정리 + 발표후 , markdown으로 작성해서 올리고 링크로 정리해두어야합니다.
 
+
 ### 👨🏻‍💻👩🏻‍💻 참여자
 
-* 김은솔 
-  * https://github.com/hongsam123
-* 양태웅
-  * https://github.com/woongity
-* 임예나
-  * https://github.com/dpsk331
-* 조영신
-  * https://github.com/blossom4
+#### 👩 김은솔 
+   * https://github.com/hongsam123 <br>
+#### 👨 양태웅
+   * https://github.com/woongity <br>
+#### 👩 임예나
+   * https://github.com/dpsk331 <br>
+#### 👨 조영신
+   * https://github.com/blossom4
   
+
 ### 📝 풀 문제 
+
 
 #### 8/18 ~ 8/20 [백준 단계 6 : 함수](https://www.acmicpc.net/step/5)
 #### 8/21 ~ 8/24 [백준 단계 7 : 문자열](https://www.acmicpc.net/step/7)
