@@ -155,17 +155,25 @@ order by sal desc;
 -- 및 이름을 출력하라.
 select empno, ename
 from emp
-where deptno in (select deptno from emp where ename like '%t%');
+where deptnto in (select deptno from emp where ename like '%t%');
 
 
 --40> 부서위치가 Dallas인 모든 사원의 이름,부서번호 및 직위를 출력하라.
+select e.ename, d.deptno, e.job
+from emp e, dept d
+where e.deptno = d.deptno and d.loc = 'Dallas';
 
 
 --41> KING에게 보고하는 모든 사원의 이름과 급여를 출력하라.
+select ename, sal
+from emp
+where mgr = (select empno from emp where ename = 'KING');
 
 
 --42> Sales 부서의 모든 사원에 대한 부서번호, 이름 및 직위를 출력하라.
-
+select e.deptno, e.ename, e.job
+from emp e, dept d
+where e.deptno = e.deptno and d.dname = 'Sales';
 
 --43> 자신의 급여가 평균 급여보다 많고 이름에 T가 들어가는 사원과 동일한
 -- 부서에 근무하는 모든 사원의 사원 번호, 이름 및 급여를 출력하라.
