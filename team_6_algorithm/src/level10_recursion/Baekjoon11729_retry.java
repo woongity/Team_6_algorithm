@@ -3,7 +3,7 @@ package level10_recursion;
 import java.util.Scanner;
 
 // 백준 11729 문제] 하노이 탑 이동 순서
-public class Baekjoon11729_retry {
+public class Baekjoon11729_Retry {
     public static StringBuilder sb = new StringBuilder();
 
     public static void main(String[] args) {
