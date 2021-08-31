@@ -7,7 +7,7 @@
 #### 매일 1문제, 어떤 문제를 풀것인지 합의하에 결정하게 됩니다.
 #### 다루는 문제의 알고리즘에 대한 개념을 매회 1명이 정리 + 발표후 , markdown으로 작성해서 올리고 링크로 정리해두어야합니다.
 
-### 👨🏻‍💻 참여자
+### 👨🏻‍💻👩🏻‍💻 참여자
 
 * 김은솔 
   * https://github.com/hongsam123
@@ -26,9 +26,12 @@
 </br>
 </br>
 
-### 알고리즘 정리 / 문제 풀이
+
+### 🗒알고리즘 정리 / 문제 풀이
 </br>
+
 8/20 발표자 : 전체<br>
 8/21 발표자 : 전채<br>
-8/30 발표자 : 양태웅 : [재귀](https://github.com/woongity/Team_6_algorithm/blob/main/%EA%B0%9C%EB%85%90/recursion.md) </br>
+8/30 발표자 : 양태웅 : [재귀](https://github.com/woongity/Team_6_algorithm/blob/main/%EA%B0%9C%EB%85%90/recursion.md)
+<br>
 9/2 발표자 : 조영신 [브루트포스]()
