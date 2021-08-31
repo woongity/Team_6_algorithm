@@ -31,4 +31,4 @@
 8/20 발표자 : 전체<br>
 8/21 발표자 : 전채<br>
 8/30 발표자 : 양태웅 : [재귀](https://github.com/woongity/Team_6_algorithm/blob/main/%EA%B0%9C%EB%85%90/recursion.md) </br>
-9/1 발표자 : 조영신 [브루트포스]()
+9/2 발표자 : 조영신 [브루트포스]()
