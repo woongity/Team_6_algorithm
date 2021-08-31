@@ -59,14 +59,23 @@ ORDER BY SAL DESC;
 
 --39> 이름에 T가 들어가는 사원의 속한 부서에서 근무하는 모든 사원의 사원번호
 -- 및 이름을 출력하라.
-
+SELECT EMPNO, ENAME
+FROM EMP E, DEPT D
+WHERE E.DEPTNO = D.DEPTNO
+AND D.DNAME LIKE '%T%';
 
 --40> 부서위치가 Dallas인 모든 사원의 이름,부서번호 및 직위를 출력하라.
-
+SELECT E.ENAME, E.DEPTNO, E.JOB
+FROM EMP E, DEPT D
+WHERE E.DEPTNO = D.DEPTNO
+AND LOC = 'DALLAS';
 
 --41> KING에게 보고하는 모든 사원의 이름과 급여를 출력하라.
+SELECT ENAME, SAL
+FROM EMP
+WHERE MGR = (SELECT EMPNO FROM EMP WHERE ENAME = 'KING');
 
-
+-- 21.03.02 4차 --------------------------------------------------------------------
 --42> Sales 부서의 모든 사원에 대한 부서번호, 이름 및 직위를 출력하라.
 
 
