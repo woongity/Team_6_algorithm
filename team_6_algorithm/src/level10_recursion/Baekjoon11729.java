@@ -20,7 +20,7 @@ public class Baekjoon11729 {
     }  //main end
 
     public static void Hanoi(int N, int A, int B, int C) {
-        // 이동할 원반의 수가 1개라면?
+        // Base Condition: 원반의 개수가 1개일 경우
         if (N == 1) {
             sb.append(A + " " + C + "\n");
             return;
