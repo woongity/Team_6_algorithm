@@ -5,11 +5,16 @@
 * 자신에게 할당된 브랜치에 자유롭게 작성
 * 어떤 문제를 풀것인지 합의하에 결정
 * 매일 1문제씩 
-* 매 스터디마다 1명씩 문제의 알고리즘 개념과 관련 문제 정리 및 발표
+* 매 스터디마다 1명씩 다루는 문제의 알고리즘 개념과 관련 문제 정리 및 발표
   * Markdown으로 작성 후 깃 업로드
 
 ### __👨🏻‍💻 참여자 👩🏻‍💻__
-#### 👩 [김은솔](https://github.com/hongsam123) 👨 [양태웅](https://github.com/woongity) 👩 [임예나](https://github.com/dpsk331) 👨 [조영신](https://github.com/blossom4)
+#### 👩 [김은솔](https://github.com/hongsam123)
+#### 👨 [양태웅](https://github.com/woongity)
+#### 👩 [임예나](https://github.com/dpsk331)
+#### 👨 [조영신](https://github.com/blossom4)
+
+<br>
 
 ---
 
