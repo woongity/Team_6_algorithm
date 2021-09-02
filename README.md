@@ -30,8 +30,7 @@
   * 백준 단계 11 : [7568번](https://www.acmicpc.net/problem/7568), [1018번](https://www.acmicpc.net/problem/1018), [1436번](https://www.acmicpc.net/problem/1436) 
 * 09/02 ~ 09/06 백트래킹
   * 백준 단계 14 : [15649번](https://www.acmicpc.net/problem/15649), [15650번](https://www.acmicpc.net/problem/15650), [15651번](https://www.acmicpc.net/problem/15651), [15652번](https://www.acmicpc.net/problem/15652), [14888번](https://www.acmicpc.net/problem/14888), [14889번](https://www.acmicpc.net/problem/14889)
-
-<br>
+  
 
 ### __📚 알고리즘 정리 / 문제 풀이__
 * 8/18 발표자 : 전체
