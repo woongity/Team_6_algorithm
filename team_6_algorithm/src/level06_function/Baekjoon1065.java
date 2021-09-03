@@ -1,4 +1,4 @@
-package level6_function;
+package level06_function;
 
 import java.util.Scanner;
 

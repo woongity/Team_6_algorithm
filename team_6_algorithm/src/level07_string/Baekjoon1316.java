@@ -1,4 +1,4 @@
-package level7_string;
+package level07_string;
 
 import java.util.Scanner;
 

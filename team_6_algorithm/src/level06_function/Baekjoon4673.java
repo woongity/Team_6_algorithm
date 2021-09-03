@@ -1,4 +1,4 @@
-package level6_function;
+package level06_function;
 
 // 백준 : 문제 > 단계별로 풀어보기 > 단계 6 : 함수 > 4673
 

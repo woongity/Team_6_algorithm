@@ -1,4 +1,4 @@
-package level8_basic_math1;
+package level08_basic_math1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
