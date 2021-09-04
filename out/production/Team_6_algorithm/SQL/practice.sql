@@ -175,44 +175,24 @@ select e.deptno, e.ename, e.job
 from emp e, dept d
 where e.deptno = e.deptno and d.dname = 'Sales';
 
-
 --43> 자신의 급여가 평균 급여보다 많고 이름에 T가 들어가는 사원과 동일한
 -- 부서에 근무하는 모든 사원의 사원 번호, 이름 및 급여를 출력하라.
-select empno,ename,sal
-from emp
-where sal > (select avg(sal) from emp)
-and deptno in (select deptno from emp where ename like '%T%');
 
 
 --44> 커미션을 받는 사원과 급여가 일치하는 사원의 이름,부서번호,급여를
 -- 출력하라.
-select ename,deptno,sal
-from emp
-where sal in (select sal from emp where comm is not null);
 
 
 --45> Dallas에서 근무하는 사원과 직업이 일치하는 사원의 이름,부서이름,
 --     및 급여를 출력하시오
-select e.ename,d.dname,e.sal
-from emp e, dept d
-where e.deptno = d.deptno
-and e.job in (select e.job from from emp e, dept d where e.deptno = d.deptno and d.loc = 'Dallas');
 
 
 --46> Scott과 동일한 급여 및 커미션을 받는 모든 사원의 이름, 입사일 및
 -- 급여를 출력하시오
-select ename, hiredate, sal
-from emp
-where sal = (select sal from emp where ename = 'Scott')
-and nvl(comm,0) = (select nvl(comm,0) from emp where ename = 'Scott');
 
 
 --47> 직업이 Clerk 인 사원들보다 더 많은 급여를 받는 사원의 사원번호,
 -- 이름, 급여를 출력하되, 결과를 급여가 높은 순으로 정렬하라.
-select empno,ename,sal
-from emp
-where sal > all(select sal from emp where job = 'Clerk')
-order by sal desc;
 
 
 --48> 이름에 A가 들어가는 사원과 같은 직업을 가진 사원의 이름과
