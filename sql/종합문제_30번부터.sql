@@ -75,30 +75,47 @@ SELECT ENAME, SAL
 FROM EMP
 WHERE MGR = (SELECT EMPNO FROM EMP WHERE ENAME = 'KING');
 
--- 21.03.02 4차 --------------------------------------------------------------------
+-- 21.09.02 4차 --------------------------------------------------------------------
 --42> Sales 부서의 모든 사원에 대한 부서번호, 이름 및 직위를 출력하라.
-
+SELECT DEPTNO, ENAME, JOB
+FROM EMP E
+WHERE DEPTNO = (SELECT DEPTNO FROM DEPT WHERE DNAME ='SALES');
 
 --43> 자신의 급여가 평균 급여보다 많고 이름에 T가 들어가는 사원과 동일한
 -- 부서에 근무하는 모든 사원의 사원 번호, 이름 및 급여를 출력하라.
-
+SELECT EMPNO, ENAME,SAL
+FROM EMP
+WHERE SAL > (SELECT AVG(SAL) FROM EMP)
+AND DEPTNO IN (SELECT DEPTNO FROM EMP WHERE ENAME LIKE '%T%');
 
 --44> 커미션을 받는 사원과 급여가 일치하는 사원의 이름,부서번호,급여를 
 -- 출력하라.
-
+SELECT ENAME, DEPTNO, SAL
+FROM EMP
+WHERE SAL IN (SELECT SAL FROM EMP WHERE COMM IS NOT NULL);
 
 --45> Dallas에서 근무하는 사원과 직업이 일치하는 사원의 이름,부서이름,
 --     및 급여를 출력하시오
-
+SELECT E.ENAME, D.DNAME, E.SAL
+FROM EMP E, DEPT D
+WHERE E.DEPTNO = D.DEPTNO
+AND JOB IN (SELECT E.JOB FROM EMP E, DEPT D WHERE E.DEPTNO = D.DEPTNO AND D.LOC = 'DALLAS');
 
 --46> Scott과 동일한 급여 및 커미션을 받는 모든 사원의 이름, 입사일 및 
 -- 급여를 출력하시오
-
-
+SELECT ENAME, HIREDATE, SAL
+FROM EMP
+WHERE SAL = (SELECT SAL FROM EMP WHERE ENAME ='SCOTT')
+AND NVL(COMM,0) = (SELECT NVL(COMM,0) FROM EMP WHERE ENAME = 'SCOTT');
+  
 --47> 직업이 Clerk 인 사원들보다 더 많은 급여를 받는 사원의 사원번호,
 -- 이름, 급여를 출력하되, 결과를 급여가 높은 순으로 정렬하라.
+SELECT EMPNO, ENAME, SAL
+FROM EMP
+WHERE SAL > ALL(SELECT SAL FROM EMP WHERE JOB = 'CLERK')
+ORDER BY SAL DESC;
 
-		
+-- 21.09.07 5차 --------------------------------------------------------------------		
 --48> 이름에 A가 들어가는 사원과 같은 직업을 가진 사원의 이름과
 -- 월급, 부서번호를 출력하라.
 
