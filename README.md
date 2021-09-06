@@ -36,6 +36,6 @@
 * 8/18 발표자 : 전체
 * 8/20 발표자 : 전체
 * 8/25 발표자 : 전체
-* 8/30 발표자 : 양태웅 - [재귀](https://github.com/woongity/Team_6_algorithm/blob/main/%EA%B0%9C%EB%85%90/recursion.md)
+* 8/30 발표자 : 양태웅 - [재귀](recursion/recursion.md)
 * 9/2 발표자 : 조영신 - [브루트포스](brute_force/brute_force.md)
-* 9/7 발표자 : 김은솔 - [백트래킹](), 임예나 - [동적계획법](https://imyena.tistory.com/37)
+* 9/7 발표자 : 김은솔 - [백트래킹](backtracking/backtracking.md), 임예나 - [동적계획법](https://imyena.tistory.com/37)
