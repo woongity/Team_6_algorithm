@@ -8,6 +8,12 @@ public class Main {
     public static boolean[] isVisited = new boolean[21];
     public static int[][] map = new int[21][21];
     public static void select(int start, int count) {
+        // 탐색가능한 것들의 갯수가 더 작다면 return ;
+        // n-count = 남은 탐색의 갯수
+        // n - start = 앞으로 탐색 가능한 것들의 갯수
+        if(n-count<n-start){
+            return;
+        }
         if (count == n / 2) {
             diff();
             return ;
