@@ -1,4 +1,4 @@
-package level11_brute_force;
+package level11_bruteForce;
 
 import java.io.BufferedReader;
 import java.io.IOException;

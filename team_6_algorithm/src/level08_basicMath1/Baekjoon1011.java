@@ -1,4 +1,4 @@
-package level08_basic_math1;
+package level08_basicMath1;
 
 import java.util.Scanner;
 

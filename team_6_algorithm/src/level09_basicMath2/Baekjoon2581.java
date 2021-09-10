@@ -1,4 +1,4 @@
-package level09_basic_math2;
+package level09_basicMath2;
 
 import java.io.IOException;
 import java.util.ArrayList;
