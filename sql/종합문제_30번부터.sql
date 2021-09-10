@@ -118,15 +118,26 @@ ORDER BY SAL DESC;
 -- 21.09.07 5차 --------------------------------------------------------------------		
 --48> 이름에 A가 들어가는 사원과 같은 직업을 가진 사원의 이름과
 -- 월급, 부서번호를 출력하라.
+SELECT ENAME, SAL, DEPTNO
+FROM EMP
+WHERE JOB IN (SELECT JOB FROM EMP WHERE ENAME LIKE '%A%');
 
 
 --49> New  York 에서 근무하는 사원과 급여 및 커미션이 같은 사원의 
 -- 사원이름과 부서명을 출력하라.
-
-
+SELECT E.ENAME, D.DNAME
+FROM EMP E, DEPT D
+WHERE E.DEPTNO = D.DEPTNO
+AND E.SAL IN (SELECT E.SAL FROM EMP E, DEPT D WHERE E.DEPTNO = D.DEPTNO AND LOC='NEW YORK')
+AND NVL(COMM, 0) IN (SELECT E.SAL FROM EMP E, DEPT D WHERE E.DEPTNO = D.DEPTNO AND LOC='NEW YORK');
 
 --50> Dallas에서 근무하는 사원과 직업 및 관리자가 같은 사원의 사원번호,사원이름,
 --    직업,월급,부서명,커미션을 출력하되 커미션이 책정되지 않은 사원은 NoCommission
 --    으로 표시하고, 커미션의 컬럼명은 Comm으로 나오게 출력하시오.
 --    단, 최고월급부터 출력되게 하시오
-
+SELECT E.EMPNO, E.ENAME, E.JOB, E.SAL, D.DNAME, NVL((TO_CHAR(E.COMM)),'NoCommision') Comm
+FROM EMP E, DEPT D
+WHERE E.DEPTNO = D.DEPTNO
+AND E.JOB IN (SELECT E.JOB FROM EMP E, DEPT D WHERE E.DEPTNO = D.DEPTNO AND D.LOC = 'DALLAS')
+AND E.MGR IN (SELECT E.MGR FROM EMP E, DEPT D WHERE E.DEPTNO = D.DEPTNO AND D.LOC = 'DALLAS')
+ORDER BY E.SAL DESC;
