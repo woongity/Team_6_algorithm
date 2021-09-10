@@ -33,6 +33,9 @@
 * 09/07 ~ 09/19 동적 계획법 1
   * 백준 단계 15 : [1149번](https://www.acmicpc.net/problem/1149), [1932번](https://www.acmicpc.net/problem/1932), [2579번](https://www.acmicpc.net/problem/2579), [12865번](https://www.acmicpc.net/problem/12865)     
 
+* 09/07 ~ 09/19 동적 계획법 1
+  * 백준 단계 15 : [1463번](https://www.acmicpc.net/problem/1463), [10844](https://www.acmicpc.net/problem/10844), [2156번](https://www.acmicpc.net/problem/2156), [11053번](https://www.acmicpc.net/problem/11053), [11054번](https://www.acmicpc.net/problem/11054)
+
 ### __📚 알고리즘 정리 / 문제 풀이__
 * 8/18 발표자 : 전체
 * 8/20 발표자 : 전체
@@ -40,4 +43,4 @@
 * 8/30 발표자 : 양태웅 - [재귀](recursion/recursion.md)
 * 9/2 발표자 : 조영신 - [브루트포스](brute_force/brute_force.md)
 * 9/7 발표자 : 김은솔 - [백트래킹](backtracking/backtracking.md), 임예나 - [동적계획법](https://imyena.tistory.com/37)
-* 9/10 발표자 : 
+* 9/10 발표자 : 전체 코드 리뷰
