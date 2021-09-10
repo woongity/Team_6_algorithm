@@ -36,7 +36,7 @@
   * 백준 단계 15 : [1463번](https://www.acmicpc.net/problem/1463), [10844](https://www.acmicpc.net/problem/10844), [2156번](https://www.acmicpc.net/problem/2156), [11053번](https://www.acmicpc.net/problem/11053), [11054번](https://www.acmicpc.net/problem/11054)
 
 ### __📝 풀 문제 - SQL__
-1. [종합문제](SQL_exercise/종합문제.txt)
+1. [종합문제](https://github.com/woongity/Team_6_algorithm/blob/12612966013dbb9fcf9988d9aff8267a7939c738/SQL_exercise/%EC%A2%85%ED%95%A9%EB%AC%B8%EC%A0%9C.txt)
 2. [프로그래머스](https://programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
 <br>
