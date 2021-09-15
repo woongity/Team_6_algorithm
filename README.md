@@ -34,10 +34,19 @@
   * 백준 단계 15 : [1149번](https://www.acmicpc.net/problem/1149), [1932번](https://www.acmicpc.net/problem/1932), [2579번](https://www.acmicpc.net/problem/2579), [12865번](https://www.acmicpc.net/problem/12865)     
 * 09/07 ~ 09/19 동적 계획법 1
   * 백준 단계 15 : [1463번](https://www.acmicpc.net/problem/1463), [10844](https://www.acmicpc.net/problem/10844), [2156번](https://www.acmicpc.net/problem/2156), [11053번](https://www.acmicpc.net/problem/11053), [11054번](https://www.acmicpc.net/problem/11054)
+* 09/15 ~ 09/23 그리디 알고리즘
+  * 백준 단계 16 : [16단계]https://www.acmicpc.net/step/33 
+  * 백준 단계 17 : [2981번](https://www.acmicpc.net/problem/2981) , [1934번](https://www.acmicpc.net/problem/1934), [3036번](https://www.acmicpc.net/problem/3036), [11051번](https://www.acmicpc.net/problem/11051) , [9375번](https://www.acmicpc.net/problem/9375)
+
+
 
 ### __📝 풀 문제 - SQL__
 1. [종합문제](https://github.com/woongity/Team_6_algorithm/blob/12612966013dbb9fcf9988d9aff8267a7939c738/SQL_exercise/%EC%A2%85%ED%95%A9%EB%AC%B8%EC%A0%9C.txt)
 2. [프로그래머스](https://programmers.co.kr/learn/challenges?tab=sql_practice_kit)
+* 9/15 ~ 9/23
+  * [SUM, MAX, MIN](https://programmers.co.kr/learn/courses/30/parts/17043)
+  * [GROUP BY](https://programmers.co.kr/learn/courses/30/parts/17044)  
+
 
 <br>
 
