@@ -46,7 +46,8 @@
 2. [프로그래머스](https://programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 * 9/15 ~ 9/23
   * [SUM, MAX, MIN](https://programmers.co.kr/learn/courses/30/parts/17043)
-  * [GROUP BY](https://programmers.co.kr/learn/courses/30/parts/17044)  
+ 
+[GROUP BY](https://programmers.co.kr/learn/courses/30/parts/17044)  
 
 
 <br>
