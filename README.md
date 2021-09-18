@@ -58,4 +58,4 @@
 * 9/2 발표자 : 조영신 - [브루트포스](brute_force/brute_force.md)
 * 9/7 발표자 : 김은솔 - [백트래킹](backtracking/backtracking.md), 임예나 - [동적계획법](https://github.com/woongity/Team_6_algorithm/blob/d180073027ca57617c0a8e74e54e0d9ef4008712/algorithm/DynamicProgramming.md)
 * 9/10 발표자 : 전체 코드 리뷰
-* 9/10 발표자 : 양태웅 - [그리디 알고리즘]()
+* 9/10 발표자 : 양태웅 - [그리디 알고리즘](greedy/greedy.md)
