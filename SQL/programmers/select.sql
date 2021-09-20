@@ -36,3 +36,16 @@ limit 1;
 select DATETIME from ANIMAL_INS
 order by DATETIME desc
 limit 1;
+
+--2. 최솟값 구하기
+select DATETIME as '시간'
+from ANIMAL_INS
+order by DATETIME limit 1;
+
+--3. 동물 수 구하기
+select count(*) as 'count'
+from ANIMAL_INS;
+
+--4. 중복 제거하기
+select count(distinct NAME) as 'count'
+from ANIMAL_INS;
