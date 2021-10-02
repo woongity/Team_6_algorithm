@@ -1,7 +1,7 @@
 # __💪현대 IT&E SW 교육 Algorithm Study__
 
 
-### __☑️ 규칙__
+### __ 규칙__
 * 자신에게 할당된 브랜치에 자유롭게 작성
 * 어떤 문제를 풀것인지 합의하에 결정
 * 매일 1문제씩 
@@ -44,10 +44,8 @@
 ### __📝 풀 문제 - SQL__
 1. [종합문제](https://github.com/woongity/Team_6_algorithm/blob/12612966013dbb9fcf9988d9aff8267a7939c738/SQL_exercise/%EC%A2%85%ED%95%A9%EB%AC%B8%EC%A0%9C.txt)
 2. [프로그래머스](https://programmers.co.kr/learn/challenges?tab=sql_practice_kit)
- * 9/15 ~ 9/23
-  * [SUM, MAX, MIN](https://programmers.co.kr/learn/courses/30/parts/17043)
- * 미니 프로젝트 기간(개인별 진행)
-  * [GROUP BY](https://programmers.co.kr/learn/courses/30/parts/17044)  
+* 9/15 ~ 9/23 : [SUM, MAX, MIN](https://programmers.co.kr/learn/courses/30/parts/17043)
+* 미니 프로젝트 기간(개인별 진행) : [GROUP BY](https://programmers.co.kr/learn/courses/30/parts/17044)  
 
 
 <br>
@@ -61,5 +59,5 @@
 * 09/07 발표자 : 김은솔 - [백트래킹](backtracking/backtracking.md), 임예나 - [동적계획법](https://github.com/woongity/Team_6_algorithm/blob/d180073027ca57617c0a8e74e54e0d9ef4008712/algorithm/DynamicProgramming.md)
 * 09/10 발표자 : 전체 코드 리뷰
 * 09/18 발표자 : 양태웅 - [그리디 알고리즘](greedy/greedy.md)
-* ================미니 프로젝트 기간(임시 중단)=====================
+================미니 프로젝트 기간(임시 중단)=====================
 * 발표자 : 조영신 - [정수론 & 조합론](number_theory&combinatorics/number_theory&combinatorics.md)
