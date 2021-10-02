@@ -36,7 +36,7 @@
   * 백준 단계 15 : [1463번](https://www.acmicpc.net/problem/1463), [10844](https://www.acmicpc.net/problem/10844), [2156번](https://www.acmicpc.net/problem/2156), [11053번](https://www.acmicpc.net/problem/11053), [11054번](https://www.acmicpc.net/problem/11054)
 * 09/15 ~ 09/23
   * 백준 단계 16 : [그리디 알고리즘](https://www.acmicpc.net/step/33)
-* 미니 프로젝트 기간 
+* 미니 프로젝트 기간(개인별 진행)
   * 백준 단계 17 : [2981번](https://www.acmicpc.net/problem/2981), [1934번](https://www.acmicpc.net/problem/1934), [3036번](https://www.acmicpc.net/problem/3036), [11051번](https://www.acmicpc.net/problem/11051), [9375번](https://www.acmicpc.net/problem/9375)
 
 
@@ -44,22 +44,22 @@
 ### __📝 풀 문제 - SQL__
 1. [종합문제](https://github.com/woongity/Team_6_algorithm/blob/12612966013dbb9fcf9988d9aff8267a7939c738/SQL_exercise/%EC%A2%85%ED%95%A9%EB%AC%B8%EC%A0%9C.txt)
 2. [프로그래머스](https://programmers.co.kr/learn/challenges?tab=sql_practice_kit)
-* 9/15 ~ 9/23
+ * 9/15 ~ 9/23
   * [SUM, MAX, MIN](https://programmers.co.kr/learn/courses/30/parts/17043)
-* 미니 프로젝트 기간
+ * 미니 프로젝트 기간(개인별 진행)
   * [GROUP BY](https://programmers.co.kr/learn/courses/30/parts/17044)  
 
 
 <br>
 
 ### __📚 알고리즘 정리 / 문제 풀이__
-* 8/18 발표자 : 전체
-* 8/20 발표자 : 전체
-* 8/25 발표자 : 전체
-* 8/30 발표자 : 양태웅 - [재귀](recursion/recursion.md)
-* 9/2 발표자 : 조영신 - [브루트포스](brute_force/brute_force.md)
-* 9/7 발표자 : 김은솔 - [백트래킹](backtracking/backtracking.md), 임예나 - [동적계획법](https://github.com/woongity/Team_6_algorithm/blob/d180073027ca57617c0a8e74e54e0d9ef4008712/algorithm/DynamicProgramming.md)
-* 9/10 발표자 : 전체 코드 리뷰
-* 9/18 발표자 : 양태웅 - [그리디 알고리즘](greedy/greedy.md)
-* 미니 프로젝트 기간
+* 08/18 발표자 : 전체
+* 08/20 발표자 : 전체
+* 08/25 발표자 : 전체
+* 08/30 발표자 : 양태웅 - [재귀](recursion/recursion.md)
+* 09/02 발표자 : 조영신 - [브루트포스](brute_force/brute_force.md)
+* 09/07 발표자 : 김은솔 - [백트래킹](backtracking/backtracking.md), 임예나 - [동적계획법](https://github.com/woongity/Team_6_algorithm/blob/d180073027ca57617c0a8e74e54e0d9ef4008712/algorithm/DynamicProgramming.md)
+* 09/10 발표자 : 전체 코드 리뷰
+* 09/18 발표자 : 양태웅 - [그리디 알고리즘](greedy/greedy.md)
+* ================미니 프로젝트 기간(임시 중단)=====================
 * 발표자 : 조영신 - [정수론 & 조합론](number_theory&combinatorics/number_theory&combinatorics.md)
