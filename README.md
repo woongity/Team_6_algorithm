@@ -60,6 +60,5 @@
 * 09/10 발표자 : 전체 코드 리뷰
 * 09/18 발표자 : 양태웅 - [그리디 알고리즘](greedy/greedy.md)
 
-<br>
 ================미니 프로젝트 기간(임시 중단)=====================
 * 발표자 : 조영신 - [정수론 & 조합론](number_theory&combinatorics/number_theory&combinatorics.md)
