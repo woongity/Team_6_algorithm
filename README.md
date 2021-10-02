@@ -34,10 +34,10 @@
   * 백준 단계 15 : [1149번](https://www.acmicpc.net/problem/1149), [1932번](https://www.acmicpc.net/problem/1932), [2579번](https://www.acmicpc.net/problem/2579), [12865번](https://www.acmicpc.net/problem/12865)     
 * 09/07 ~ 09/19 동적 계획법 1
   * 백준 단계 15 : [1463번](https://www.acmicpc.net/problem/1463), [10844](https://www.acmicpc.net/problem/10844), [2156번](https://www.acmicpc.net/problem/2156), [11053번](https://www.acmicpc.net/problem/11053), [11054번](https://www.acmicpc.net/problem/11054)
-* 09/15 ~ 09/23 그리디 알고리즘
-  * 백준 단계 16 : [16단계]https://www.acmicpc.net/step/33 
-* 09/24 ~ 09/ 
-  * 백준 단계 17 : [2981번](https://www.acmicpc.net/problem/2981) , [1934번](https://www.acmicpc.net/problem/1934), [3036번](https://www.acmicpc.net/problem/3036), [11051번](https://www.acmicpc.net/problem/11051) , [9375번](https://www.acmicpc.net/problem/9375)
+* 09/15 ~ 09/23
+  * 백준 단계 16 : [그리디 알고리즘](https://www.acmicpc.net/step/33)
+* 미니 프로젝트 기간 
+  * 백준 단계 17 : [2981번](https://www.acmicpc.net/problem/2981), [1934번](https://www.acmicpc.net/problem/1934), [3036번](https://www.acmicpc.net/problem/3036), [11051번](https://www.acmicpc.net/problem/11051), [9375번](https://www.acmicpc.net/problem/9375)
 
 
 
@@ -46,8 +46,8 @@
 2. [프로그래머스](https://programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 * 9/15 ~ 9/23
   * [SUM, MAX, MIN](https://programmers.co.kr/learn/courses/30/parts/17043)
- 
-[GROUP BY](https://programmers.co.kr/learn/courses/30/parts/17044)  
+* 미니 프로젝트 기간
+  * [GROUP BY](https://programmers.co.kr/learn/courses/30/parts/17044)  
 
 
 <br>
@@ -61,4 +61,5 @@
 * 9/7 발표자 : 김은솔 - [백트래킹](backtracking/backtracking.md), 임예나 - [동적계획법](https://github.com/woongity/Team_6_algorithm/blob/d180073027ca57617c0a8e74e54e0d9ef4008712/algorithm/DynamicProgramming.md)
 * 9/10 발표자 : 전체 코드 리뷰
 * 9/18 발표자 : 양태웅 - [그리디 알고리즘](greedy/greedy.md)
-* 9/23 발표자 : 조영신 - [정수론 & 조합론](number_theory&combinatorics/number_theory&combinatorics.md)
+* 미니 프로젝트 기간
+* 발표자 : 조영신 - [정수론 & 조합론](number_theory&combinatorics/number_theory&combinatorics.md)
